@@ -5,41 +5,21 @@
 /WebChatApp/.vscode
 /WebChatApp/node_modules
 
+# Ignore build & cache files
+/WebChatApp/node_modules
 /WebChatApp/dist
 /WebChatApp/tmp
 /WebChatApp/out-tsc
 /WebChatApp/bazel-out
+/WebChatApp/.angular/cache
 
+# Ignore IDE/editor configs
+/WebChatApp/.vscode/*
+!/WebChatApp/.vscode/settings.json
+!/WebChatApp/.vscode/tasks.json
+!/WebChatApp/.vscode/launch.json
+!/WebChatApp/.vscode/extensions.json
 
+# Logs
 /WebChatApp/npm-debug.log
 /WebChatApp/yarn-error.log
-
-# IDEs and editors
-/WebChatApp/.idea/
-/WebChatApp/.project
-/WebChatApp/.classpath
-/WebChatApp/.c9/
-/WebChatApp/*.launch
-/WebChatApp/.settings/
-/WebChatApp/*.sublime-workspace
-
-# Visual Studio Code
-/WebChatApp/.vscode/*
-/WebChatApp/!.vscode/settings.json
-/WebChatApp/!.vscode/tasks.json
-/WebChatApp/!.vscode/launch.json
-/WebChatApp/!.vscode/extensions.json
-/WebChatApp/.history/*
-
-# Miscellaneous
-/WebChatApp/.angular/cache
-/WebChatApp/.sass-cache/
-/WebChatApp/connect.lock
-/coverage
-/WebChatApp/libpeerconnection.log
-/WebChatApp/testem.log
-/WebChatApp/typings
-
-# System files
-/WebChatApp/.DS_Store
-/WebChatApp/Thumbs.db

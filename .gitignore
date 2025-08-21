@@ -1,25 +1,47 @@
-/WebChat/.vs
-/WebChat/.vscode
-/WebChat/WebChat/bin
-/WebChat/WebChat/obj
-/WebChatApp/.vscode
-/WebChatApp/node_modules
+# ========================
+# Global ignores (common)
+# ========================
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
 
-# Ignore build & cache files
-/WebChatApp/node_modules
-/WebChatApp/dist
-/WebChatApp/tmp
-/WebChatApp/out-tsc
-/WebChatApp/bazel-out
+# ========================
+# ASP.NET Core backend
+# ========================
+/WebChat/.vs
+/WebChat/WebChat/bin/
+/WebChat/WebChat/obj/
+
+# User-specific files
+*.user
+*.suo
+
+# ========================
+# Angular frontend
+# ========================
+/WebChatApp/node_modules/
+/WebChatApp/dist/
+/WebChatApp/tmp/
+/WebChatApp/out-tsc/
+/WebChatApp/bazel-out/
 /WebChatApp/.angular/cache
 
-# Ignore IDE/editor configs
+# ========================
+# IDE/editor configs
+# ========================
 /WebChatApp/.vscode/*
 !/WebChatApp/.vscode/settings.json
 !/WebChatApp/.vscode/tasks.json
 !/WebChatApp/.vscode/launch.json
 !/WebChatApp/.vscode/extensions.json
 
+/WebChat/.vscode/   # Ignore backend VSCode configs completely
+
+# ========================
 # Logs
-/WebChatApp/npm-debug.log
-/WebChatApp/yarn-error.log
+# ========================
+/WebChatApp/npm-debug.log*
+/WebChatApp/yarn-error.log*
